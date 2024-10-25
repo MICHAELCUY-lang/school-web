@@ -1,0 +1,85 @@
+<html>
+<head>
+    <title>Contact Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .map {
+            width: 100%;
+            height: 400px;
+            margin-bottom: 20px;
+        }
+        .contact-form, .more-info {
+            width: 48%;
+            display: inline-block;
+            vertical-align: top;
+        }
+        .contact-form {
+            margin-right: 4%;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .contact-form textarea {
+            height: 150px;
+        }
+        .contact-form button {
+            padding: 10px 20px;
+            background-color: #00bfff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #009acd;
+        }
+        .more-info {
+            padding: 20px;
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .more-info p {
+            margin: 0 0 10px;
+        }
+        .more-info strong {
+            display: block;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="map">
+            <iframe src="https://maps.app.goo.gl/bkEBdwAWqv8gg9RT8" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="contact-form">
+            <h2>Get In Touch</h2>
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email Address">
+            <textarea placeholder="Message"></textarea>
+            <button type="submit" value="Submit">
+        </div>
+        <div class="more-info">
+            <h2>Contact</h2>
+            <p><strong>Email:</strong> putriii@gmail.com</p>
+            <p><strong>Address:</strong> Jl. Kampus Hijau </p>
+            <p><strong>Phone:</strong> 08111111111111</p>
+            <p><strong>Business Hours:</strong> Mon-Fri: 8:00-5:00, Sat-Sun: 9:00-5:00</p>
+        </div>
+    </div>
+</body>
+</html>

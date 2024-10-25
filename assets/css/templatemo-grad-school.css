@@ -1,12 +1,3 @@
-/*
-    
-TemplateMo 557 Grad School
-
-https://templatemo.com/tm-557-grad-school
-
-*/
-
-
 @import url(fontawesome.css);
 @import url("<link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">");
 body {
@@ -311,7 +302,7 @@ a.menu-link { display: none; }
 
 .video-overlay {
     position: absolute;
-    background-color: rgba(22,34,57,0.85);
+    background-color: rgba(10, 7, 9, 0.85);
     top: 0;
     left: 0;
     bottom: 7px;
@@ -792,8 +783,6 @@ section.coming-soon form button {
 
 
 
-/* Courses */
-
 section.courses {
     background-image: url(../images/choosing-bg.jpg);
     background-repeat: no-repeat;
@@ -880,10 +869,6 @@ section.courses .owl-carousel button.active {
 
 
 
-
-
-/* Video */
-
 section.video {
     background-image: url(../images/video-bg.jpg);
     background-repeat: no-repeat;
@@ -945,9 +930,11 @@ section.video .left-content .main-button {
   width: 100%;
   font-size: 0;
 }
+
 .video-item figure img {
   width: 100%;
 }
+
 .video-item figure a:before {
   content: '';
   position: absolute;
@@ -961,6 +948,7 @@ section.video .left-content .main-button {
   background-color: #f5a425;
   z-index: 10;
 }
+
 .video-item figure a:after {
   content: '';
   position: absolute;
@@ -973,6 +961,7 @@ section.video .left-content .main-button {
   border-left-color: #fff;
   z-index: 10;
 }
+
 .video-item figure a:hover:before {
   background-color: #f5a425;
 }
